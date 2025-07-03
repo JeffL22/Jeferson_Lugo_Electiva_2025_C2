@@ -2804,9 +2804,19 @@
 				(hide yes)
 			)
 		)
-		(pin "RS485-A" output
+		(pin "GPIO Control" input
+			(at 242.57 48.26 180)
+			(uuid "97daeeb7-361f-441b-8cb8-356774e44d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS485-A" bidirectional
 			(at 269.24 41.91 0)
-			(uuid "60c96b87-77ff-4cf2-a134-d7544874d879")
+			(uuid "2e5ec045-486d-4f0b-98fa-9b35239f1b49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,9 +2824,9 @@
 				(justify right)
 			)
 		)
-		(pin "RS485-B" output
+		(pin "RS485-B" bidirectional
 			(at 269.24 44.45 0)
-			(uuid "e74353c7-eff6-43b3-b52c-5aa96706ad74")
+			(uuid "eb4a393f-be1c-4766-b134-2f2581ac07bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2836,7 @@
 		)
 		(pin "UART_IN" input
 			(at 242.57 41.91 180)
-			(uuid "09a1e3bf-de1c-47d6-ac1d-e2597d4607d6")
+			(uuid "d74075d9-cb56-4dbd-b8af-528a61aec900")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2836,22 +2846,12 @@
 		)
 		(pin "UART_OUT" output
 			(at 242.57 44.45 180)
-			(uuid "4dc0de64-daa6-4f5c-ae43-db1669efb3c8")
+			(uuid "102239a5-f5e3-4830-a32b-aacf61e94365")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "GPIO Control" bidirectional
-			(at 269.24 48.26 0)
-			(uuid "da321656-f38c-4bc6-90c5-1f35c8c1c058")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
