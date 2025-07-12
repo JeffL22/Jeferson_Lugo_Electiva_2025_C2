@@ -1326,6 +1326,18 @@
 		)
 	)
 	(junction
+		(at 55.88 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a716625-8220-48bb-bd5e-6efddfeb371a")
+	)
+	(junction
+		(at 55.88 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "229d6346-e8ab-41c9-af5b-1e786c162d04")
+	)
+	(junction
 		(at 62.23 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1349,6 +1361,36 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 40.64) (xy 30.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068e1b90-5b37-4f26-8f99-2c78256e7175")
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f07d1bd-8c8a-4428-a2c3-01fcf8aa6bf9")
+	)
+	(wire
+		(pts
+			(xy 55.88 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23882b6b-908d-40c6-8599-113e45bb5170")
+	)
+	(wire
+		(pts
 			(xy 68.58 50.8) (xy 73.66 50.8)
 		)
 		(stroke
@@ -1356,6 +1398,16 @@
 			(type default)
 		)
 		(uuid "243db5cf-b03c-4635-950d-fb7e68dd3c24")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2be35fc1-4a42-47d4-acf6-7f9bdd9ac0c9")
 	)
 	(wire
 		(pts
@@ -1389,6 +1441,26 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 41.91) (xy 55.88 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4a31b6-167d-4225-95ed-ff8d1c715967")
+	)
+	(wire
+		(pts
+			(xy 55.88 41.91) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545fa944-ed26-4e4c-85ad-6929111fbd74")
+	)
+	(wire
+		(pts
 			(xy 52.07 34.29) (xy 52.07 33.02)
 		)
 		(stroke
@@ -1399,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 44.45) (xy 62.23 44.45)
+			(xy 52.07 44.45) (xy 55.88 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1439,6 +1511,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 39.37) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7154f17-2d66-4b39-a708-cfe0e7dc054f")
+	)
+	(wire
+		(pts
 			(xy 95.25 50.8) (xy 99.06 50.8)
 		)
 		(stroke
@@ -1459,13 +1541,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 34.29) (xy 62.23 34.29)
+			(xy 52.07 34.29) (xy 55.88 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9f9d944-d3e0-4d29-8650-4937b8e755d8")
+	)
+	(wire
+		(pts
+			(xy 49.53 36.83) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a59ec9-d64c-48b2-bb47-7f57fb101d58")
 	)
 	(wire
 		(pts
@@ -4131,7 +4223,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Diode_TVS_AKL:SM712")
-		(at 39.37 39.37 0)
+		(at 41.91 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4140,7 +4232,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fb0347e-87b4-4e1e-8ae1-f89f5a0a67f4")
 		(property "Reference" "D1"
-			(at 38.7985 29.21 0)
+			(at 41.3385 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4240,7 @@
 			)
 		)
 		(property "Value" "SM712"
-			(at 38.7985 31.75 0)
+			(at 41.3385 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4248,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23"
-			(at 39.37 30.48 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4257,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/75933fc1842e5f5f3391c0542bf992c7/SM712.pdf"
-			(at 39.37 30.48 0)
+			(at 41.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4266,7 @@
 			)
 		)
 		(property "Description" "SOT-23 Dual bidirectional TVS diode, 12V/7V, 600W, Alternate KiCAD Library"
-			(at 39.37 39.37 0)
+			(at 41.91 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,6 +4287,72 @@
 			(project ""
 				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/99c91700-32e4-4af2-92bb-dfc39d4a19be"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10e19145-8046-41b7-bb7a-3e52d1816ad3")
+		(property "Reference" "#PWR023"
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e705a55c-6845-49e5-99bc-9e9062090cdb")
+		)
+		(instances
+			(project "PLC"
+				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/99c91700-32e4-4af2-92bb-dfc39d4a19be"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

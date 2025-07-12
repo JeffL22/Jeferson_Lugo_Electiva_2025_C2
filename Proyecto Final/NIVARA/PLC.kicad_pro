@@ -657,27 +657,15 @@
     ],
     [
       "b9268f26-718c-4a48-8ae8-39fdea6c5230",
-      "Imput_NPN"
+      "Módulo_Imput_NPN"
     ],
     [
       "3c224c8b-4407-4571-aae7-40ea2f3e8d3e",
-      "Imput_PNP"
-    ],
-    [
-      "43dd619e-e3df-4206-857a-054a7f2acd5c",
-      "OutPut_NPN"
-    ],
-    [
-      "ae301485-03cb-4ad0-b267-ba060f72e725",
-      "OutPutPNP"
+      "Módulo_Imput_PNP"
     ],
     [
       "ac913b72-9411-440e-a304-796e6e17b58d",
-      "RLY1"
-    ],
-    [
-      "ce608384-33a4-4420-95f7-4f2c221048b3",
-      "RLY2"
+      "Módulo - RLY"
     ]
   ],
   "text_variables": {}
