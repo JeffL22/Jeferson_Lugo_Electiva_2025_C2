@@ -694,6 +694,10 @@
     [
       "92a449a0-d3af-4359-97a0-93f1df2b280f",
       "Módulo-DOut_NPN"
+    ],
+    [
+      "93864cae-db18-48fc-9939-dfcd64a09514",
+      "Módulo-DOut_PNP"
     ]
   ],
   "text_variables": {}
