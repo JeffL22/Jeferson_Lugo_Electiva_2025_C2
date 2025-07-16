@@ -5,212 +5,6 @@
 	(uuid "27dac364-28d3-42d7-9d49-600f911de5c1")
 	(paper "USLedger")
 	(lib_symbols
-		(symbol "DS1E-S-DC3V:DS1E-S-DC3V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DS1E-S-DC3V"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DS1ESDC3V"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-328800.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low Signal Relays - PCB 1 Form C, 3VDC 1 Form C 200mW Type"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "9.9"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "769-DS1E-S-DC3V"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/DS1E-S-DC3V?qs=YINDDaGsG3GA1gNfBIOlLw%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DS1E-S-DC3V"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DS1E-S-DC3V_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "COIL+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "COIL-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Easy Eda:LK1802"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -401,20 +195,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
+		(symbol "Easy:SRA-24VDC-CL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "K"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SRA-24VDC-CL"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -422,15 +224,16 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Relays_SRA-24VDC-CL_C127865.html"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -439,8 +242,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "LCSC Part" "C127865"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -448,28 +251,68 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "SRA-24VDC-CL_0_1"
+				(rectangle
+					(start -8.64 8.13)
+					(end 5.59 -8.13)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(fill
+						(type background)
 					)
-					(hide yes)
 				)
-			)
-			(symbol "+3.3V_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.08 1.02)
+					(mid -4.0979 0)
+					(end -5.08 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 3.05)
+					(mid -4.0743 2.035)
+					(end -5.08 1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.02)
+					(mid -4.0743 -2.035)
+					(end -5.08 -3.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -5.08 3.05) (xy -5.08 7.62) (xy -7.62 7.62)
 					)
 					(stroke
 						(width 0)
@@ -481,7 +324,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -5.08 -3.05) (xy -5.08 -7.62) (xy -7.62 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -493,7 +336,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 -2.03) (xy 4.06 0)
 					)
 					(stroke
 						(width 0)
@@ -503,12 +346,103 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+				(polyline
+					(pts
+						(xy 1.02 2.79) (xy 1.02 5.08) (xy 4.32 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.02 2.29)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.02 -2.29)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.02 -2.79) (xy 1.02 -5.08) (xy 4.32 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.57 0)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 7.62 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,6 +450,42 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -755,23 +725,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 59.69 30.48)
+			(xy 59.69 55.88) (xy 59.69 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0caf4b86-aad1-4c92-834b-c7c193d2ab66")
-	)
-	(wire
-		(pts
-			(xy 59.69 30.48) (xy 67.31 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1220f0d0-b891-4d39-b4ba-c9d52f5c8eff")
 	)
 	(wire
 		(pts
@@ -782,6 +742,46 @@
 			(type default)
 		)
 		(uuid "1c57b4ff-b9c7-45b4-88a8-1a30df5a146f")
+	)
+	(wire
+		(pts
+			(xy 138.43 53.34) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8156ad-0611-4abc-8c26-1e52ffb6c28a")
+	)
+	(wire
+		(pts
+			(xy 92.71 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad0fe58-2381-4dbc-b6f3-f72dc0a2a730")
+	)
+	(wire
+		(pts
+			(xy 118.11 38.1) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0372f8-60fd-4a6c-9530-c8a301f37cbf")
+	)
+	(wire
+		(pts
+			(xy 59.69 41.91) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3606252c-defb-459d-a2ed-4d253268c8c6")
 	)
 	(wire
 		(pts
@@ -805,33 +805,43 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 30.48) (xy 99.06 30.48)
+			(xy 90.17 39.37) (xy 96.52 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "406e78fa-3a4c-4754-9f1b-f0d433cb2648")
+		(uuid "3b01b8e6-6c4e-4c89-a1d9-9e676c18040f")
 	)
 	(wire
 		(pts
-			(xy 95.25 27.94) (xy 99.06 27.94)
+			(xy 140.97 48.26) (xy 144.78 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49614967-1481-44ac-a847-70e0078754d3")
+		(uuid "3e9aeeec-91a8-4194-99c0-9631c449c7f1")
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 99.06 33.02)
+			(xy 69.85 26.67) (xy 72.39 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "504acd5e-81f5-49a0-9b45-49e304cfec2f")
+		(uuid "40d6b37a-138f-44a6-8ccc-158a91d2fd7f")
+	)
+	(wire
+		(pts
+			(xy 118.11 40.64) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a863907-5105-4a7e-82da-c082a45afc6e")
 	)
 	(wire
 		(pts
@@ -855,33 +865,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 149.86 53.34)
+			(xy 69.85 24.13) (xy 69.85 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71e0e25c-5271-4920-a4ad-86423e743032")
-	)
-	(wire
-		(pts
-			(xy 144.78 58.42) (xy 149.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721a6311-1bf5-45c2-85fe-c3c8b7f09088")
-	)
-	(wire
-		(pts
-			(xy 66.04 27.94) (xy 67.31 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7463be34-93fe-4f70-942a-e515ee1db0df")
+		(uuid "734605c7-2dd6-4834-acfd-03deda0f7ba4")
 	)
 	(wire
 		(pts
@@ -895,37 +885,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 115.57 53.34)
+			(xy 138.43 43.18) (xy 144.78 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a99c3a-7826-40ed-9d46-66f68bb51c5b")
+		(uuid "c4e2fb53-80e4-4e2b-b5ac-0cdfa1ed5ce3")
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 149.86 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4fdc9a6-e871-495e-988d-e4781c848fcf")
-	)
-	(wire
-		(pts
-			(xy 115.57 53.34) (xy 115.57 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e53706a4-c102-4a18-b7c8-444587a7a003")
-	)
-	(wire
-		(pts
-			(xy 90.17 55.88) (xy 116.84 55.88)
+			(xy 90.17 55.88) (xy 120.65 55.88)
 		)
 		(stroke
 			(width 0)
@@ -935,13 +905,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 26.67) (xy 66.04 27.94)
+			(xy 90.17 29.21) (xy 96.52 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efb203fc-51ad-4489-89a7-4fc07dbe165d")
+		(uuid "ee5393af-8563-47b7-af61-9aaed5187496")
 	)
 	(wire
 		(pts
@@ -955,7 +925,7 @@
 	)
 	(hierarchical_label "RLY2_NO"
 		(shape output)
-		(at 149.86 53.34 0)
+		(at 144.78 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -966,7 +936,7 @@
 	)
 	(hierarchical_label "RLY2_NC"
 		(shape output)
-		(at 149.86 55.88 0)
+		(at 144.78 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -977,7 +947,7 @@
 	)
 	(hierarchical_label "RLY1_COMÚN"
 		(shape output)
-		(at 99.06 33.02 0)
+		(at 96.52 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -999,7 +969,7 @@
 	)
 	(hierarchical_label "RLY1_NC"
 		(shape output)
-		(at 99.06 30.48 0)
+		(at 96.52 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1010,7 +980,7 @@
 	)
 	(hierarchical_label "RLY2_COMÚN"
 		(shape output)
-		(at 149.86 58.42 0)
+		(at 144.78 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1032,7 +1002,7 @@
 	)
 	(hierarchical_label "RLY1_NO"
 		(shape output)
-		(at 99.06 27.94 0)
+		(at 96.52 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1108,17 +1078,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 66.04 26.67 0)
+		(lib_id "Easy:SRA-24VDC-CL")
+		(at 82.55 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e1f453f-23d2-4fe9-bbe5-f8ceded73bb6")
-		(property "Reference" "#PWR022"
-			(at 66.04 30.48 0)
+		(uuid "2dc55bec-f0d7-4a9b-b10c-5d40f252e5c5")
+		(property "Reference" "K3"
+			(at 81.026 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRA-24VDC-CL"
+			(at 81.026 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
+			(at 82.55 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,16 +1111,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 66.04 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 26.67 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_SRA-24VDC-CL_C127865.html"
+			(at 82.55 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,8 +1120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 26.67 0)
+		(property "Description" ""
+			(at 82.55 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,215 +1129,97 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 26.67 0)
+		(property "LCSC Part" "C127865"
+			(at 82.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "5"
+			(uuid "f848b44f-3cca-45c3-aaa7-3597199eb530")
+		)
+		(pin "2"
+			(uuid "65ebae4b-2dc2-4135-b7db-e8f44297bbc9")
 		)
 		(pin "1"
-			(uuid "77c94aa8-8fbf-4d48-a77b-d3f3ca5d4a37")
+			(uuid "f7f18b48-b7b5-4dc7-8b88-8dff4a5bf324")
 		)
-		(instances
-			(project "PLC"
-				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/ac913b72-9411-440e-a304-796e6e17b58d"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
+		(pin "4"
+			(uuid "0fb7386f-9460-4114-889b-426eab24b5c4")
 		)
-	)
-	(symbol
-		(lib_id "DS1E-S-DC3V:DS1E-S-DC3V")
-		(at 116.84 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94801976-ae55-4698-bf0c-f466aea27a18")
-		(property "Reference" "K2"
-			(at 130.81 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS1E-S-DC3V"
-			(at 130.81 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay DS1E:RELAY_DS1E_PAN"
-			(at 140.97 148.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-328800.pdf"
-			(at 140.97 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Signal Relays - PCB 1 Form C, 3VDC 1 Form C 200mW Type"
-			(at 116.84 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.9"
-			(at 140.97 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "769-DS1E-S-DC3V"
-			(at 140.97 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/DS1E-S-DC3V?qs=YINDDaGsG3GA1gNfBIOlLw%3D%3D"
-			(at 140.97 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 140.97 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DS1E-S-DC3V"
-			(at 140.97 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "272910fb-b0db-44c5-aa19-8291c89ae679")
-		)
-		(pin "10"
-			(uuid "4141049d-5e74-4ace-a5cb-6c2eb15758ed")
-		)
-		(pin "6"
-			(uuid "906b74b7-8ce4-44d2-94cb-86deb9cf6886")
-		)
-		(pin "7"
-			(uuid "843c1a02-035b-490f-95c4-568b96ace4c3")
-		)
-		(pin "12"
-			(uuid "b2dc5381-7d08-4bb9-8bff-811079bed8cd")
-		)
-		(instances
-			(project "PLC"
-				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/ac913b72-9411-440e-a304-796e6e17b58d"
-					(reference "K2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 115.57 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccbf57a9-a465-476f-b99d-ae099bc8d5dd")
-		(property "Reference" "#PWR021"
-			(at 115.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 115.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 115.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6156f54b-f0f3-4a96-9e56-e51c6d341897")
+		(pin "3"
+			(uuid "53be8c13-e549-497d-b6b9-418cf485e826")
 		)
 		(instances
 			(project ""
+				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/ac913b72-9411-440e-a304-796e6e17b58d"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 118.11 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c26afa3c-2a26-4479-84f7-eb911d2cb01d")
+		(property "Reference" "#PWR021"
+			(at 118.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 118.11 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eeb40bcd-5dd6-4d33-bd04-006710189c87")
+		)
+		(instances
+			(project "PLC"
 				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/ac913b72-9411-440e-a304-796e6e17b58d"
 					(reference "#PWR021")
 					(unit 1)
@@ -1458,53 +1317,32 @@
 		)
 	)
 	(symbol
-		(lib_id "DS1E-S-DC3V:DS1E-S-DC3V")
-		(at 67.31 27.94 0)
+		(lib_id "Easy:SRA-24VDC-CL")
+		(at 130.81 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e83ce88a-3311-4af0-8ff7-e47373edbb44")
+		(uuid "dd463b13-26b2-4924-8430-d99c76eb50a7")
 		(property "Reference" "K1"
-			(at 81.28 20.32 0)
+			(at 129.286 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DS1E-S-DC3V"
-			(at 81.28 22.86 0)
+		(property "Value" "SRA-24VDC-CL"
+			(at 129.286 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Relay DS1E:RELAY_DS1E_PAN"
-			(at 91.44 122.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-328800.pdf"
-			(at 91.44 222.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low Signal Relays - PCB 1 Form C, 3VDC 1 Form C 200mW Type"
-			(at 67.31 27.94 0)
+		(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
+			(at 130.81 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,75 +1350,117 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "9.9"
-			(at 91.44 422.86 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Relays_SRA-24VDC-CL_C127865.html"
+			(at 130.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "769-DS1E-S-DC3V"
-			(at 91.44 522.86 0)
+		(property "Description" ""
+			(at 130.81 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/DS1E-S-DC3V?qs=YINDDaGsG3GA1gNfBIOlLw%3D%3D"
-			(at 91.44 622.86 0)
+		(property "LCSC Part" "C127865"
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 91.44 722.86 0)
+		(pin "5"
+			(uuid "69afb81c-613c-44a9-9a87-1fb47eddd3d6")
+		)
+		(pin "2"
+			(uuid "2d50ddab-621b-4ff5-a5ca-b5214f569618")
+		)
+		(pin "1"
+			(uuid "81804fb8-3cd4-42ef-af44-ed55a1f1efa8")
+		)
+		(pin "4"
+			(uuid "2b4ee37d-2559-428f-b1eb-118cdb39c44f")
+		)
+		(pin "3"
+			(uuid "b40a2c39-f5f0-4a1b-a108-29cdabbe341a")
+		)
+		(instances
+			(project "PLC"
+				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/ac913b72-9411-440e-a304-796e6e17b58d"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 69.85 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4a38aa7-cfbd-4087-b890-88e69e61eae4")
+		(property "Reference" "#PWR022"
+			(at 69.85 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DS1E-S-DC3V"
-			(at 91.44 822.86 0)
+		(property "Value" "VCC"
+			(at 69.85 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "572ca088-6dae-4902-9d5a-44e61eb508db")
-		)
-		(pin "10"
-			(uuid "d8a30806-f7f4-4f6a-866d-3b14631973f5")
-		)
-		(pin "6"
-			(uuid "0936ffbd-af2b-4c86-8390-117df25d2daf")
-		)
-		(pin "7"
-			(uuid "2625005d-4080-4474-acce-cf9a2bbe32e2")
-		)
-		(pin "12"
-			(uuid "af984274-19cf-4a19-890d-d552fba6587d")
+			(uuid "f0ee963f-a516-4881-9c52-267bbb87cb72")
 		)
 		(instances
 			(project ""
 				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23/26c5c8f2-e377-4319-a69c-d69661c7cccb/ac913b72-9411-440e-a304-796e6e17b58d"
-					(reference "K1")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

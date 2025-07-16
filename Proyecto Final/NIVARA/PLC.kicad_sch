@@ -1425,7 +1425,7 @@
 	)
 	(text "ENTRADA \nRUN/STOP"
 		(exclude_from_sim no)
-		(at 145.034 104.648 0)
+		(at 145.034 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 105.41) (xy 158.75 106.68)
+			(xy 158.75 114.3) (xy 158.75 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1477,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 161.29 102.87)
+			(xy 157.48 111.76) (xy 161.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1517,13 +1517,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 161.29 95.25)
+			(xy 157.48 100.33) (xy 161.29 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50435f3a-63c6-4ad0-b3c6-adbe070d3a1b")
+		(uuid "574d98f3-22f2-4de5-861a-d65352e9dc0c")
 	)
 	(wire
 		(pts
@@ -1587,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.41) (xy 158.75 105.41)
+			(xy 157.48 114.3) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1703,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d73145ae-ccd4-4189-b139-2bfdff675072")
+		(uuid "cf0bb3b7-c639-4883-be5d-9cdb5dba647f")
 	)
 	(wire
 		(pts
@@ -1787,6 +1787,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 97.79) (xy 161.29 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f767aa73-71ba-49db-9e28-382859e11536")
+	)
+	(wire
+		(pts
 			(xy 205.74 113.03) (xy 209.55 113.03)
 		)
 		(stroke
@@ -1794,6 +1804,16 @@
 			(type default)
 		)
 		(uuid "fed313b3-a44b-4648-950e-d9a00b992c97")
+	)
+	(wire
+		(pts
+			(xy 157.48 95.25) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4c917c-d38f-4ed7-8da7-f6ce4a6d4a57")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -2231,7 +2251,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P5.00mm")
-		(at 153.67 104.14 0)
+		(at 153.67 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2240,7 +2260,7 @@
 		(dnp no)
 		(uuid "1da2d7da-03e2-4126-92a2-c47947428254")
 		(property "Reference" "J4"
-			(at 152.908 100.076 0)
+			(at 152.908 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2268,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_2_P5.00mm"
-			(at 149.86 105.4099 0)
+			(at 149.86 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2278,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 152.4 110.49 0)
+			(at 152.4 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 104.14 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 104.14 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2305,7 @@
 			)
 		)
 		(property "Capacidad " ""
-			(at 153.67 104.14 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2314,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 153.67 104.14 0)
+			(at 153.67 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,6 +2423,99 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_4_P5.00mm")
+		(at 153.67 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2918ae6a-ef6e-40db-9b13-4ff6f7b0e990")
+		(property "Reference" "J2"
+			(at 152.908 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_4_P5.00mm"
+			(at 152.654 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-5.0-H_1x04_P5.00mm_Horizontal"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacidad " ""
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85da8b80-a5c3-41a1-935d-8d6ba71b559f")
+		)
+		(pin "1"
+			(uuid "4c91d428-d4d1-4a86-bb37-724ff3b9e1c1")
+		)
+		(pin "4"
+			(uuid "e7828794-b165-469f-b554-ab1488198911")
+		)
+		(pin "3"
+			(uuid "d6bab844-950e-4713-8cd5-1c2b25980e4b")
+		)
+		(instances
+			(project "PLC"
+				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_3_P5.00mm")
 		(at 213.36 72.39 0)
 		(unit 1)
@@ -2488,93 +2601,6 @@
 			(project "PLC"
 				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Screw_Terminal:Screw_Terminal_2_P5.00mm")
-		(at 153.67 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54356124-16be-4eb8-8b9a-54519b378dce")
-		(property "Reference" "J2"
-			(at 153.162 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_2_P5.00mm"
-			(at 149.86 92.7101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Capacidad " ""
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" ""
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df269894-f068-4165-9383-a0f2ed0c68fe")
-		)
-		(pin "1"
-			(uuid "f33c51c0-dffd-4267-994b-5d3a331294ad")
-		)
-		(instances
-			(project "PLC"
-				(path "/a1baea3f-df2c-4fcc-baf4-2ec71e099e23"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 106.68 0)
+		(at 158.75 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2748,7 +2774,7 @@
 		(dnp no)
 		(uuid "7e3afc00-5be9-4059-a658-8223d932aa19")
 		(property "Reference" "#PWR05"
-			(at 158.75 113.03 0)
+			(at 158.75 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.194 108.712 0)
+			(at 155.194 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 106.68 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 106.68 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 106.68 0)
+			(at 158.75 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,26 +3287,6 @@
 				(justify right)
 			)
 		)
-		(pin "D_IN_1" input
-			(at 161.29 92.71 180)
-			(uuid "21a59826-bfe0-40fb-8f59-c055a2798f48")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "D_IN_2" input
-			(at 161.29 95.25 180)
-			(uuid "ceb4442e-6fac-4105-afb0-b751106bba57")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "NPN_IN_1" input
 			(at 161.29 54.61 180)
 			(uuid "cd5814c5-ef3a-45e7-92c9-89abf40472bd")
@@ -3402,7 +3408,7 @@
 			)
 		)
 		(pin "RUN{slash}STOP" input
-			(at 161.29 102.87 180)
+			(at 161.29 111.76 180)
 			(uuid "8c285253-89c8-4aa7-8245-5131d9becd65")
 			(effects
 				(font
@@ -3449,6 +3455,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "D_IN_1+" input
+			(at 161.29 92.71 180)
+			(uuid "2509df9a-0823-45b4-8555-c68b9e58385f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_IN_1-" input
+			(at 161.29 95.25 180)
+			(uuid "c317f4b9-840b-472b-aa16-e5c6847bb6f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_IN_2+" input
+			(at 161.29 97.79 180)
+			(uuid "66658700-de6b-4876-87be-701c3d564d05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_IN_2-" input
+			(at 161.29 100.33 180)
+			(uuid "153a28e3-fd3b-4615-ace9-f8ced0cf872b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

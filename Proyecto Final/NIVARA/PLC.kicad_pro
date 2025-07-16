@@ -664,8 +664,36 @@
       "Módulo_Imput_PNP"
     ],
     [
+      "3969210b-a5c0-4233-afda-0f70c3dbc9d8",
+      "Módulo 0-32V_IN"
+    ],
+    [
       "ac913b72-9411-440e-a304-796e6e17b58d",
       "Módulo - RLY"
+    ],
+    [
+      "7788877e-6d34-4f04-8d2e-4c5fc9e02b35",
+      "Módulo 0-10V_IN"
+    ],
+    [
+      "faafac30-29fb-4b18-a453-ab92f559754d",
+      "Módulo A-420-IN"
+    ],
+    [
+      "d8c3e2a0-4e7b-4efb-9321-0d8b0adfe312",
+      "Módulo D_IN"
+    ],
+    [
+      "9448c264-dbbe-4d9e-8f41-5da2fb303b98",
+      "Módulo AOUT_010"
+    ],
+    [
+      "f006b4ad-d394-4be4-9aeb-40f84d658487",
+      "Módulo-AOUT_420"
+    ],
+    [
+      "92a449a0-d3af-4359-97a0-93f1df2b280f",
+      "Módulo-DOut_NPN"
     ]
   ],
   "text_variables": {}
