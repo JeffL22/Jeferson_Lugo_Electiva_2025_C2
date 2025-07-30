@@ -3588,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP"
+		(property "Footprint" "Easy Eda:GP8201S"
 			(at 92.71 59.69 0)
 			(effects
 				(font

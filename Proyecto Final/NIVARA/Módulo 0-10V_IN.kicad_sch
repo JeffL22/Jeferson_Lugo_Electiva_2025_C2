@@ -1213,7 +1213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:MBF-SMD_L4.7-W3.8-P2.50-LS6.8-BL"
+		(property "Footprint" "Puente H:MB24F-SMD_L4.7-W3.8-P2.50-LS6.8-BL"
 			(at 88.9 72.39 0)
 			(effects
 				(font

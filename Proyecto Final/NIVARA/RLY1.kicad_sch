@@ -1102,7 +1102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
+		(property "Footprint" "Easy Eda:RELAY-TH_SRA-X-CX"
 			(at 82.55 49.53 0)
 			(effects
 				(font
@@ -1341,7 +1341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:RELAY-TH_SRA-X-CX"
+		(property "Footprint" "Easy Eda:RELAY-TH_SRA-X-CX"
 			(at 130.81 63.5 0)
 			(effects
 				(font
